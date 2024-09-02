@@ -3,8 +3,8 @@
    ============== */
 
 html {
-    color: #222;
-    background-color: #eee;
+  color: #222;
+  background-color: #eee;
 }
 
 /* =======================
@@ -12,11 +12,52 @@ html {
    ======================= */
 
 @media only screen and (min-width: 800px) {
-
-    html {
-      background-color: #eae;
-    }
-
+  html {
+    background-color: #eae;
+  }
 }
 
+img{
+  max-width: 100% ;
+}
 
+.container {
+  max-width: 100%;
+  margin: auto;
+}
+header {
+  text-transform: uppercase;
+}
+nav a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.grid figcaption {
+  margin-top: 4px;
+  color: #555;
+  font-weight: 400;
+}
+
+.grid img {
+  max-width: 100%;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+}
