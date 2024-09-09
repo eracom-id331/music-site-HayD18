@@ -3,8 +3,12 @@
    ============== */
 
 html {
-  color: #222;
-  background-color: #eee;
+  color: #ffffff;
+  background-color: none;
+}
+
+body {
+  padding: 50px;
 }
 
 /* =======================
@@ -13,24 +17,58 @@ html {
 
 @media only screen and (min-width: 800px) {
   html {
-    background-color: #eae;
+    background-image: url("img/img_début_snoop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
   }
 }
-
-img{
-  max-width: 100% ;
+img {
+  max-width: 100%;
 }
-
 .container {
   max-width: 100%;
   margin: auto;
 }
+
+header a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 header {
   text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  color: white;
+  padding-bottom: 5rem;
 }
+
 nav a {
   font-weight: bold;
   text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  color: white;
+}
+nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.About {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 6rem;
+  gap: 2rem;
+}
+
+a:hover {
+  color: #d8eeaa;
 }
 
 .grid figcaption {
