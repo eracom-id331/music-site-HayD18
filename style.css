@@ -39,6 +39,7 @@ main {
   padding-top: 35rem;
 }
 
+/* Title */
 h1 {
   padding: 0;
 }
@@ -60,11 +61,11 @@ h3 {
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 .down {
