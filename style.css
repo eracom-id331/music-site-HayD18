@@ -107,7 +107,6 @@ html {
   transition: background-color 0.5s ease;
   margin: 0%;
   padding: 0%;
-  scroll-behavior: smooth;
 }
 .snoopy {
   color: #ffffff;
@@ -119,6 +118,7 @@ html {
 img {
   max-width: 100%;
 }
+
 .container {
   max-width: 100%;
   margin: auto;
@@ -369,7 +369,7 @@ footer {
     45deg,
     #ffcc00,
     #1020ff
-  ); /* Changement de couleur au survol */
+  ); 
 }
 
 .end {
